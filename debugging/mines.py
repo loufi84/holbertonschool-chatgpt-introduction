@@ -67,7 +67,7 @@ class Minesweeper:
 				)
                 if revealed_count == total_safe:
                     self.print_board(reveal=True)
-                    print("Congratulations! You cleared the minefield!")
+                    print("Congratulations! You've won the game")
                     break
             except ValueError:
                 print("Invalid input. Please enter numbers only.")
